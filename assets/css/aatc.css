@@ -1,0 +1,46 @@
+.custom-counter {
+    background-color: rgb(243, 243, 247);
+    width: 130px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 40px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.custom-counter input {
+    font-size: 16px;
+    width: 50px;
+    background-color: inherit;
+    box-shadow: inherit;
+    text-align: center;
+    padding: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.custom-counter input::-webkit-outer-spin-button,
+.custom-counter input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-counter button {
+    cursor: pointer;
+    color: #000;
+    padding: 0 15px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.custom-counter button:hover {
+    background-color: #d5d5d5;
+}
+
+.product-type-simple form.cart {
+    display: none;
+}
